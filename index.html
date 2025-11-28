@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NET-ESPAÑA - Asociación de Pacientes con Tumores Neuroendocrinos. Apoyamos y orientamos a pacientes y familiares en el proceso de la enfermedad.">
+    <title>NET-ESPAÑA | Asociación de Pacientes con Tumores Neuroendocrinos</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+    <!-- Cookie Banner -->
+    <div class="cookie-banner">
+        <div class="cookie-banner__container container">
+            <p class="cookie-banner__text">
+                Le informamos de que www.netespana.org contiene cookies propias y de terceros con la finalidad de permitir su funcionamiento, para la visualización de vídeos que publicamos y para analizar el tráfico web, de forma que podamos mejorar así la experiencia de navegación y los servicios e información que ofrecemos a través del mismo.
+            </p>
+            <div class="cookie-banner__buttons">
+                <button class="btn btn--outline cookie-more-info">Más info</button>
+                <button class="btn btn--primary cookie-accept">Acepto</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Top Bar -->
+    <div class="header-top"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container container">
+            <a href="index.html" class="header__logo">
+                <img src="images/logo.png" alt="NET-ESPAÑA - Asociación de Pacientes con Tumores Neuroendocrinos">
+            </a>
+
+            <nav class="nav">
+                <button class="nav__toggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav__list">
+                    <li class="nav__item nav__item--has-dropdown">
+                        <a href="#" class="nav__link">Acerca</a>
+                        <ul class="nav__dropdown">
+                            <li><a href="acerca/nuestro-objetivo.html" class="nav__dropdown-link">Nuestro objetivo</a></li>
+                            <li><a href="acerca/por-que-la-cebra.html" class="nav__dropdown-link">Por qué la cebra</a></li>
+                            <li><a href="acerca/quienes-somos.html" class="nav__dropdown-link">Quiénes somos</a></li>
+                            <li><a href="acerca/comite-medico-asesor.html" class="nav__dropdown-link">Comité médico asesor</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item nav__item--has-dropdown">
+                        <a href="#" class="nav__link">Tumores Neuroendocrinos</a>
+                        <ul class="nav__dropdown">
+                            <li><a href="tumores-neuroendocrinos/que-son.html" class="nav__dropdown-link">Qué son</a></li>
+                            <li><a href="tumores-neuroendocrinos/tipos-de-net.html" class="nav__dropdown-link">Tipos de NET</a></li>
+                            <li><a href="tumores-neuroendocrinos/sintomas-y-diagnostico.html" class="nav__dropdown-link">Síntomas y diagnóstico</a></li>
+                            <li><a href="tumores-neuroendocrinos/manejo-clinico.html" class="nav__dropdown-link">Manejo clínico</a></li>
+                            <li><a href="tumores-neuroendocrinos/ensayos-clinicos.html" class="nav__dropdown-link">Ensayos clínicos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item">
+                        <a href="actividades-y-eventos/index.html" class="nav__link">Actividades y eventos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="testimonios/index.html" class="nav__link">Testimonios</a>
+                    </li>
+                    <li class="nav__item nav__item--has-dropdown">
+                        <a href="#" class="nav__link">Saber más</a>
+                        <ul class="nav__dropdown">
+                            <li><a href="saber-mas/guias.html" class="nav__dropdown-link">Guías</a></li>
+                            <li><a href="saber-mas/tratamientos-sistemicos.html" class="nav__dropdown-link">Tratamientos Sistémicos</a></li>
+                            <li><a href="saber-mas/ponencias-net.html" class="nav__dropdown-link">Ponencias NET</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item nav__item--has-dropdown">
+                        <a href="#" class="nav__link">Asesoramiento</a>
+                        <ul class="nav__dropdown">
+                            <li><a href="asesoramiento/psicooncologico.html" class="nav__dropdown-link">Psicooncológico</a></li>
+                            <li><a href="asesoramiento/juridico-laboral.html" class="nav__dropdown-link">Jurídico laboral</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contacto/index.html" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Slider -->
+        <section class="hero-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="images/slider/beca-2025.png" alt="Beca NET-ESPAÑA 2025">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="images/slider/netcare-web.jpg" alt="NETcare - App NET-ESPAÑA">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="images/slider/slider-1.jpg" alt="NET-ESPAÑA Asociación">
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </section>
+
+        <!-- Nutriactivos Banner -->
+        <section class="banner">
+            <a href="http://www.nutriactivos-net.com" target="_blank" rel="noopener">
+                <img src="images/banners/nutriactivos.jpg" alt="Nutriactivos - Nutrición para personas con TNE">
+            </a>
+        </section>
+
+        <!-- EntreTNEs Banner -->
+        <section class="banner">
+            <a href="https://www.entretnes.com/" target="_blank" rel="noopener">
+                <img src="images/banners/entretnes.jpg" alt="EntreTNEs Podcast">
+            </a>
+        </section>
+
+        <!-- Video Section -->
+        <section class="video-section">
+            <a href="https://vimeo.com/248133614" class="video-card" data-video-id="248133614" target="_blank">
+                <img src="images/banners/video-home.jpg" alt="Video NET-ESPAÑA">
+                <div class="video-card__overlay">
+                    <div class="video-card__play">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+            </a>
+            <div class="video-section__text">
+                <h2 class="video-section__title">Juntos para hacer visible el cáncer neuroendocrino</h2>
+            </div>
+            <div class="video-section__text">
+                <!-- Second text area for CTA buttons -->
+            </div>
+            <a href="https://vimeo.com/193364245" class="video-card" data-video-id="193364245" target="_blank">
+                <img src="images/banners/zebra-day.jpg" alt="Zebra Day - NET-ESPAÑA">
+                <div class="video-card__overlay">
+                    <div class="video-card__play">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+            </a>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <a href="contacto/index.html" class="cta-btn cta-btn--socio">Hazte Socio</a>
+            <a href="contacto/index.html" class="cta-btn cta-btn--donacion">Haz una Donación</a>
+        </section>
+
+        <!-- Events Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="events-section__title">Últimos Eventos NET-ESPAÑA</h2>
+                <div class="events-grid">
+                    <article class="event-card">
+                        <div class="event-card__image">
+                            <img src="images/events/jornada-x-2025.png" alt="X Jornada NETs 2025">
+                        </div>
+                        <h3 class="event-card__title">
+                            <a href="actividades-y-eventos/index.html">Día Mundial de los Tumores Neuroendocrinos. X Jornada NETs. Madrid, 4 de noviembre 2025</a>
+                        </h3>
+                    </article>
+                    <article class="event-card">
+                        <div class="event-card__image">
+                            <img src="images/events/webinar-cirugias-2025.png" alt="Webinar Cirugías 2025">
+                        </div>
+                        <h3 class="event-card__title">
+                            <a href="actividades-y-eventos/index.html">Conversaciones con expertos Cirugías y Cáncer Neuroendocrino. Webinar gratuito, 23 de junio 2025</a>
+                        </h3>
+                    </article>
+                    <article class="event-card">
+                        <div class="event-card__image">
+                            <img src="images/events/concierto-2025.png" alt="Concierto Solidario 2025">
+                        </div>
+                        <h3 class="event-card__title">
+                            <a href="actividades-y-eventos/index.html">Concierto Solidario ofrecido por el Conservatorio Profesional de Música Eliseo Pinedo de Logroño. 22 de abril 2025</a>
+                        </h3>
+                    </article>
+                    <article class="event-card">
+                        <div class="event-card__image">
+                            <img src="images/events/jornada-ix-2024.png" alt="IX Jornada NETs 2024">
+                        </div>
+                        <h3 class="event-card__title">
+                            <a href="actividades-y-eventos/index.html">Día Mundial de los Tumores Neuroendocrinos. IX Jornada NETs. Madrid, 7 de noviembre 2024</a>
+                        </h3>
+                    </article>
+                    <article class="event-card">
+                        <div class="event-card__image">
+                            <img src="images/events/webinar-quirurgicas-2024.png" alt="Webinar Intervenciones Quirúrgicas 2024">
+                        </div>
+                        <h3 class="event-card__title">
+                            <a href="actividades-y-eventos/index.html">Intervenciones quirúrgicas en el contexto del Cáncer Neuroendocrino. Webinar gratuito, 5 de noviembre 2024</a>
+                        </h3>
+                    </article>
+                    <article class="event-card">
+                        <div class="event-card__image">
+                            <img src="images/events/webinar-nutricion-2024.png" alt="Webinar Nutrición 2024">
+                        </div>
+                        <h3 class="event-card__title">
+                            <a href="actividades-y-eventos/index.html">Importancia de la Nutrición en pacientes con cáncer neuroendocrino. Webinar gratuito, 17 de junio 2024</a>
+                        </h3>
+                    </article>
+                    <article class="event-card">
+                        <div class="event-card__image">
+                            <img src="images/events/aec-convenio.jpg" alt="Convenio AEC y NET-ESPAÑA">
+                        </div>
+                        <h3 class="event-card__title">
+                            <a href="actividades-y-eventos/index.html">La AEC y NET-ESPAÑA firman un convenio de colaboración</a>
+                        </h3>
+                    </article>
+                    <article class="event-card">
+                        <div class="event-card__image">
+                            <img src="images/events/jornada-viii-2023.jpg" alt="VIII Jornada NETs 2023">
+                        </div>
+                        <h3 class="event-card__title">
+                            <a href="actividades-y-eventos/index.html">Día Mundial de los Tumores Neuroendocrinos. VIII Jornada NETs. Madrid, 7 de noviembre 2023</a>
+                        </h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Section -->
+        <section class="partners-section">
+            <div class="container">
+                <div class="partners-grid">
+                    <div class="partners-col">
+                        <h3 class="partners-col__title">"Somos miembros de:"</h3>
+                        <div class="partners-col__logos">
+                            <a href="http://www.gepac.es/" target="_blank" rel="noopener">
+                                <img src="images/partners/gepac.png" alt="GEPAC">
+                            </a>
+                            <a href="http://incalliance.org" target="_blank" rel="noopener">
+                                <img src="images/partners/inca.jpg" alt="INCA">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="partners-col">
+                        <h3 class="partners-col__title">"Agradecimientos a:"</h3>
+                        <div class="partners-col__logos">
+                            <a href="http://www.ipsen.es" target="_blank" rel="noopener">
+                                <img src="images/partners/ipsen.jpg" alt="IPSEN">
+                            </a>
+                            <a href="#" target="_blank" rel="noopener">
+                                <img src="images/partners/aaa.png" alt="Advanced Accelerator Applications">
+                            </a>
+                            <a href="#" target="_blank" rel="noopener">
+                                <img src="images/partners/itm.jpg" alt="ITM">
+                            </a>
+                            <a href="https://www.novartisoncology.es/" target="_blank" rel="noopener">
+                                <img src="images/partners/novartis.jpg" alt="Novartis">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="partners-col">
+                        <h3 class="partners-col__title">"Con el aval de:"</h3>
+                        <div class="partners-col__logos">
+                            <a href="http://www.getne.org/" target="_blank" rel="noopener">
+                                <img src="images/partners/getne.jpg" alt="GETNE">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__col">
+                <h4 class="footer__title">Noticias</h4>
+                <ul class="footer__list">
+                    <li><a href="actividades-y-eventos/index.html" class="footer__link">Día Mundial de los Tumores Neuroendocrinos. X Jornada NETs. Madrid, 4 de noviembre 2025</a></li>
+                    <li><a href="actividades-y-eventos/index.html" class="footer__link">Conversaciones con expertos Cirugías y Cáncer Neuroendocrino. Webinar gratuito, 23 de junio 2025</a></li>
+                    <li><a href="actividades-y-eventos/index.html" class="footer__link">Concierto Solidario ofrecido por el Conservatorio Profesional de Música. 22 de abril 2025</a></li>
+                    <li><a href="actividades-y-eventos/index.html" class="footer__link">Día Mundial de los Tumores Neuroendocrinos. IX Jornada NETs. Madrid, 7 de noviembre 2024</a></li>
+                    <li><a href="actividades-y-eventos/index.html" class="footer__link">Intervenciones quirúrgicas en el contexto del Cáncer Neuroendocrino. Webinar gratuito, 5 de noviembre 2024</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__title">Enlaces de Interés</h4>
+                <ul class="footer__list">
+                    <li><a href="http://www.gepac.es" class="footer__link" target="_blank" rel="noopener">GEPAC, Grupo Español de Pacientes con Cáncer</a></li>
+                    <li><a href="http://www.getne.org" class="footer__link" target="_blank" rel="noopener">GETNE, Grupo Español de Tumores Neuroendocrinos</a></li>
+                    <li><a href="http://www.seom.org" class="footer__link" target="_blank" rel="noopener">SEOM, Sociedad Española de Oncología Médica</a></li>
+                    <li><a href="http://www.ipsen.es" class="footer__link" target="_blank" rel="noopener">IPSEN PHARMA</a></li>
+                    <li><a href="http://www.adacap.com" class="footer__link" target="_blank" rel="noopener">Advanced Accelerator Applications, AAA</a></li>
+                    <li><a href="https://www.novartisoncology.es/" class="footer__link" target="_blank" rel="noopener">NOVARTIS</a></li>
+                    <li><a href="http://www.livingwithnets.com" class="footer__link" target="_blank" rel="noopener">Living with NETs</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__title">Contacto</h4>
+                <div class="footer__contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Avenida Córdoba, núm. 15, 2ºB, 28026 MADRID</span>
+                </div>
+                <div class="footer__contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+34 901 220 110 | +34 915 631 801</span>
+                </div>
+                <div class="footer__contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:info@netespana.org" class="footer__link">info@netespana.org</a>
+                </div>
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/tumorNeuroendocrino/" class="footer__social-link" target="_blank" rel="noopener" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/NETESPANA" class="footer__social-link" target="_blank" rel="noopener" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://instagram.com/netespana" class="footer__social-link" target="_blank" rel="noopener" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
