@@ -468,6 +468,79 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-primary);
 }
 
+.event-card__link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* --------------------------------------------------------------------------
+   Breadcrumb
+   -------------------------------------------------------------------------- */
+.breadcrumb {
+    margin-bottom: var(--spacing-lg);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+}
+
+.breadcrumb a {
+    color: var(--color-primary);
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+/* --------------------------------------------------------------------------
+   Event Detail
+   -------------------------------------------------------------------------- */
+.event-detail {
+    margin-bottom: var(--spacing-xl);
+}
+
+.event-detail__image {
+    margin-bottom: var(--spacing-lg);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    max-width: 600px;
+}
+
+.event-detail__image img {
+    width: 100%;
+    height: auto;
+}
+
+.event-detail__content {
+    line-height: var(--line-height-base);
+}
+
+.event-detail__content p {
+    margin-bottom: var(--spacing-md);
+}
+
+.event-detail__content h3 {
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
+    color: var(--color-primary);
+}
+
+.event-detail__content ul {
+    margin-left: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
+}
+
+.event-detail__content li {
+    margin-bottom: var(--spacing-sm);
+}
+
+.event-detail__content a {
+    color: var(--color-primary);
+}
+
+.event-detail__content a:hover {
+    text-decoration: underline;
+}
+
 /* --------------------------------------------------------------------------
    Partners Section
    -------------------------------------------------------------------------- */
